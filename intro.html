@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+</head>
+<body>
+   <p id="demo">JavaScript Can Change HTML Content</p>
+   <button onclick="show()">Change</button>
+</body>
+<script>
+    function show(){
+
+        if(document.getElementById('demo').innerHTML!=="How is it"){
+            document.getElementById('demo').innerHTML="How is it"
+        }
+   else{
+    document.getElementById('demo').innerHTML="get out"
+   }
+
+ 
+</script>
+</html>
